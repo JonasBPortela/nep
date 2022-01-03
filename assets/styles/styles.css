@@ -26,8 +26,43 @@ html, body{
     min-width: 200px;
     margin-right: 0;
     margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom:20px;
 }
 
+.menu{
+    display: inline-block;
+    width: 80%;
+    max-width:1080px;
+}
+
+.menu1{
+    display: inline-block;
+    width: 10%;
+    height: 30px;
+    border-left: 2px solid rgb(0, 120, 167);
+    padding-top: 12px;
+    padding-left: 10px;
+    margin-right: 45px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: left;
+    text-shadow: 0px 0.3px black;
+    cursor: pointer;
+}
+
+.menu2{
+    display: inline-block;
+    width: 24%;
+    height: 30px;
+    border-left: 2px solid rgb(0, 120, 167);
+    padding-top: 12px;
+    padding-left: 20px;
+    font-size: 12px;
+    text-align: left;
+    text-shadow: 0px 0.3px black;
+    cursor: pointer;
+}
 
 .header_central{
     display: flex;
@@ -36,6 +71,7 @@ html, body{
     min-width: 324px;
     margin-right: 0;
     margin-left: 5%;
+    margin-bottom: 50px;
 }
 
 .button {
@@ -46,7 +82,9 @@ html, body{
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 8px;
     margin: 4px 2px;
-    font-weight: 550;
+    font-weight: bolder;
+    text-shadow: 0px 0.3px black;
+    letter-spacing: 0.15em;
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -54,7 +92,7 @@ html, body{
 .button1{
     background-color: white;
     color: black;
-    border: 2px solid #555555;
+    border: 1px solid #555555;
 }
 
 .button1:hover{
@@ -72,32 +110,44 @@ html, body{
     display: inline-block;
     height: 400px;
     width: 318px;
-    border: 3px solid rgb(166, 166, 182);
+    border: 2px solid rgb(224, 224, 224, 0.83);
+    margin-bottom: 50px;
 }
 
 .borda1{
+    color: rgb(94, 94, 94);
     margin-right: -3px;
     margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 .borda2{
-    margin-right: 15px 0px;
+    color: rgb(200, 200, 200);
+    padding-right: 2px;
     margin-left: 10px;
     margin-top: 20px;
-    margin-bottom: 63px;
+    margin-bottom: 53px;
 }
 .borda3{
-    margin: -3px;
-    border-top: 3px solid rgb(166, 166, 182);
-    padding-right: 176px;
+    border-top: 2px solid rgb(224, 224, 224);
+    padding-right: 165px;
     padding-left: 20px;
     color: black;
+    text-shadow: 0px 0.3px black;
     text-decoration: none;
-    padding-bottom: 10px;
+    padding-bottom: 13px;
     padding-top: 10px;
+    font-weight: bold;
 }
 
 .margin_artigos{
     margin-right: 50px;
+}
+
+.estilo{
+    font-family: 'Montserrat';
+}
+.estilo1{
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
