@@ -10,6 +10,43 @@ html, body{
     margin: 0 auto;
 }
 
+.centro1{
+    background-color: whitesmoke;
+    margin: 5% auto 28% auto;
+    width: 30%;
+    border: 1px solid #ccc;
+}
+
+.centrado{
+    padding: 10%;
+}
+
+input[type=text], input[type=password] {
+    width: 95%;
+    padding: 6px 10px;
+    margin: 0px 0px 8px 0px;
+    display: inline-block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.img1{
+    text-align: center;
+    margin: 24px 0 12px 30%;
+    position: relative;
+    width: 40%;
+}
+
+.fixed {
+    position: relative;
+    top: -55%;
+    left: 44%;
+    font-size: auto;
+}
+
 .header{
     display: flex;
     width: 90%;
@@ -89,6 +126,44 @@ html, body{
     cursor: pointer;
 }
 
+.button2 {
+    border: none;
+    color: black;
+    padding: 14px 55px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button3{
+    background-color: rgb(47, 55, 131);
+    color: black;
+    border: 1px solid #555555;
+    border-radius: 4px;
+}
+
+.button3:hover{
+    opacity: 0.9;
+}
+
+.button4{
+    background-color: rgb(210, 251, 227);
+    color: rgb(47, 55, 131);
+    border: 1px solid rgb(123, 212, 161);
+    border-radius: 4px;
+}
+
+.bordinha{
+    border-radius: 4px;
+}
+
+.opacidade{
+    opacity: 0;
+}
+
 .button1{
     background-color: white;
     color: black;
@@ -122,7 +197,7 @@ html, body{
     margin-bottom: 10px;
 }
 .borda2{
-    color: rgb(173, 173, 173);
+    color: rgb(200, 200, 200);
     padding-right: 2px;
     margin-left: 10px;
     margin-top: 20px;
@@ -150,4 +225,10 @@ html, body{
 .estilo1{
     font-family: 'Montserrat';
     font-weight: bold;
+}
+
+.estilo2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 12px;
 }

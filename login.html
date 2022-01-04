@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/styles/styles.css" type="text/css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/18807d7a03.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("botao");
+          if (x.type === "submit") {
+            document.getElementById("botaosucess").style.opacity = 1;
+        }
+    }
+    </script>
+    <title>admin</title>
+</head>
+<body>
+    <div class="centro1 bordinha">
+        <img src="assets/icons/cassems.png" class="img1" alt="não encontrado"> 
+    <div class="centrado">
+        <label for="User" class="estilo2"><b>Usuário</b></label>
+        <input type="text" name="User" required>
+    
+        <label for="senha" class="estilo2"><b>Senha</b></label>
+        <input type="password" name="senha" required id="minhaSenha">
+            
+        <label>
+            <input type="checkbox" checked="checked" name="lembrar">Lembrar acesso
+        </label>
+        <button type="submit" class="button2 button3 estilo2" id="botao" style="letter-spacing: 0.15em; color: white; margin-bottom: 10px; margin-left: 9px;" onclick="myFunction()">ENTRAR</button>
+        <button class="button2 button4 estilo2 opacidade" style="width: 95%; margin-bottom: -10px;" id="botaosucess">MENSAGEM DE SUCESSO!</button>
+    </div>
+    </div>
+    <a href="oto site" class="fixed estilo1">Esqueceu sua senha?</a>
+</body>
+</html>
