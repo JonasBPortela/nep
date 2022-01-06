@@ -3,48 +3,19 @@ html, body{
     margin: auto;
 }
 
+.fundo{
+    height: 88%;
+    background-size:100%;
+    background-image: url("../icons/Background.png");
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+
 .centro{
     box-sizing: border-box;
     width: 90%;
     min-width: 321px;
     margin: 0 auto;
-}
-
-.centro1{
-    background-color: whitesmoke;
-    margin: 5% auto 28% auto;
-    width: 30%;
-    border: 1px solid #ccc;
-}
-
-.centrado{
-    padding: 10%;
-}
-
-input[type=text], input[type=password] {
-    width: 95%;
-    padding: 6px 10px;
-    margin: 0px 0px 8px 0px;
-    display: inline-block;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #ccc;
-    box-sizing: border-box;
-}
-
-.img1{
-    text-align: center;
-    margin: 24px 0 12px 30%;
-    position: relative;
-    width: 40%;
-}
-
-.fixed {
-    position: relative;
-    top: -55%;
-    left: 44%;
-    font-size: auto;
 }
 
 .header{
@@ -111,69 +82,6 @@ input[type=text], input[type=password] {
     margin-bottom: 50px;
 }
 
-.button {
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 8px;
-    margin: 4px 2px;
-    font-weight: bolder;
-    text-shadow: 0px 0.3px black;
-    letter-spacing: 0.15em;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.button2 {
-    border: none;
-    color: black;
-    padding: 14px 55px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.button3{
-    background-color: rgb(47, 55, 131);
-    color: black;
-    border: 1px solid #555555;
-    border-radius: 4px;
-}
-
-.button3:hover{
-    opacity: 0.9;
-}
-
-.button4{
-    background-color: rgb(210, 251, 227);
-    color: rgb(47, 55, 131);
-    border: 1px solid rgb(123, 212, 161);
-    border-radius: 4px;
-}
-
-.bordinha{
-    border-radius: 4px;
-}
-
-.opacidade{
-    opacity: 0;
-}
-
-.button1{
-    background-color: white;
-    color: black;
-    border: 1px solid #555555;
-}
-
-.button1:hover{
-    background-color: #555555;
-    color: white;
-}
 
 .artigo{
     width: 100%;
@@ -190,45 +98,228 @@ input[type=text], input[type=password] {
 }
 
 .borda1{
-    color: rgb(94, 94, 94);
     margin-right: -3px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 .borda2{
-    color: rgb(200, 200, 200);
     padding-right: 2px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 20px;
     margin-bottom: 53px;
 }
 .borda3{
     border-top: 2px solid rgb(224, 224, 224);
-    padding-right: 165px;
-    padding-left: 20px;
-    color: black;
-    text-shadow: 0px 0.3px black;
-    text-decoration: none;
-    padding-bottom: 13px;
-    padding-top: 10px;
-    font-weight: bold;
+    padding-right: 185.3px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-top: 13px;
 }
 
 .margin_artigos{
     margin-right: 50px;
 }
 
-.estilo{
-    font-family: 'Montserrat';
-}
-.estilo1{
-    font-family: 'Montserrat';
-    font-weight: bold;
+/*  -----------------    botões    ------------------    */
+
+.button {
+    padding: 1px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 8px;
+    margin: 6px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.18);
 }
 
-.estilo2{
-    font-family: 'Montserrat';
-    font-weight: bold;
+.button1{
+    background-color: white;
+    color: black;
+    border: 1px solid #555555;
+}
+
+.button1:hover{
+    background-color: #555555;
+    color: white;
+}
+
+
+/*  -----------------    estilos   ------------------    */
+
+.estiloborda1{
+    color: rgb(94, 94, 94);
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;  
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.estiloborda2{
+    color: rgb(200, 200, 200);
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;  
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.estiloborda3{
+    color: black;
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;  
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.estilo1{
+    color: black;
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;  
     font-size: 12px;
+    line-height: 19px;
+}
+
+.estiloForm{
+    color: rgb(88, 88, 88);
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;  
+    font-size: 10px;
+    line-height: 19px;
+}
+
+/* ultilidades LOGIN HTML --------------------------------------- alguns reusos em INDEX HTML*/
+
+.tamanho{
+    display: inline-block;
+    font-family: Maven Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: -4px;
+}
+
+.tabelinha{
+    margin-top: 3%;
+    width: 48%;
+    display: inline-block;
+}
+
+.tabelinha1{
+    display: inline-block;
+    margin-top: 4%;
+    width: 17%;
+}
+
+.fixed {
+    margin: 6% auto 0 auto;
+    width: 25%;
+}
+
+.centro1{
+    background-color: white;
+    margin: 12% auto -5% auto;
+    width: 350px;
+    height: 440px;
+    box-shadow: 1px 5px 30px 10px rgba(0, 0, 0, 0.07);
+}
+
+.centrado{
+    padding: 10%;
+}
+
+input[type=text], input[type=password] {
+    width: 95%;
+    padding: 6px 10px;
+    margin: 0px 0px 8px 0px;
+    display: inline-block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.img1{
+    text-align: center;
+    margin: 32px 0 -22px 15%;
+    position: relative;
+    width: 70%;
+}
+
+.button2 {
+    border: none;
+    color: black;
+    padding: 4% 12%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button3{
+    background-color: rgb(47, 55, 131);
+    color: #FFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    float: right;
+}
+
+.button3:hover{
+    opacity: 0.9;
+}
+
+.button4{
+    background: #D2FBE3;
+    border: 1px solid #6FCF97;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    color: rgb(47, 55, 131);
+    width: 95%;
+    margin: 5% 0 -5% 0;
+    font-family: Maven Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+}
+
+.bordinha{
+    border-radius: 4px;
+}
+
+.opacidade{
+    opacity: 0;
+}
+
+/*  -----------------    estilos   ------------------    */
+
+.estilo4{
+    font-family: Maven Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.estilo3{
+    color: #2F3783;
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;  
+    font-size: 16px;
+    line-height: 19px;
 }
